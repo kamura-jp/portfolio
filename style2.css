@@ -8,6 +8,10 @@
         width: 100%;
     }
     
+    .header_logo {
+    margin-bottom: 10px;
+}
+    
     .menu_btn {
     display: block;
     text-decoration: none;
@@ -50,6 +54,10 @@
         overflow-x: hidden;
     }
     
+    .header_logo {
+    margin-bottom: 10px;
+}
+    
       .menu_btn {
     display: block;
     text-decoration: none;
@@ -88,6 +96,10 @@
     html {
         overflow-x: hidden;
     }
+    
+    .header_logo {
+    margin-bottom: 10px;
+}
     
       .menu_btn {
     display: block;
@@ -146,6 +158,10 @@
     html {
         overflow-x: hidden;
     }
+    
+    .header_logo {
+    margin-bottom: 10px;
+}
     
       .menu_btn {
     display: block;
@@ -230,6 +246,10 @@
     html {
         overflow-x: hidden;
     }
+    
+    .header_logo {
+    margin-bottom: 10px;
+}
     
       .menu_btn {
     display: block;
