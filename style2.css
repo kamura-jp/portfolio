@@ -254,7 +254,7 @@
       .menu_btn {
     display: block;
     text-decoration: none;
-    position: fixed;
+    position: absolute;
     right: 30px;
     width: 30px;
     height: 30px;
