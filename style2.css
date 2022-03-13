@@ -264,18 +264,6 @@
     margin-right: 15px;
 }
     
-    .nav_menu2 > li {
-    font-size: 14px;
-    list-style: none;
-    padding-bottom:15px;
-}
-
-.nav_menu2 li a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    text-align: left;
-}
 
     .video video {
         width: 100%;
