@@ -11,20 +11,6 @@
     .header_logo {
     margin-bottom: 10px;
 }
-    
-    .menu_btn {
-    display: block;
-    text-decoration: none;
-    position: fixed;
-    right: 30px;
-    width: 30px;
-    height: 30px;
-    transition:  all .5s;
-    cursor: pointer;
-    z-index: 30;
-    margin-top: 30px;
-    margin-right: 15px;
-}
 
     .inner_contants {
         width: 100%;
@@ -57,20 +43,6 @@
     .header_logo {
     margin-bottom: 10px;
 }
-    
-      .menu_btn {
-    display: block;
-    text-decoration: none;
-    position: fixed;
-    right: 30px;
-    width: 30px;
-    height: 30px;
-    transition:  all .5s;
-    cursor: pointer;
-    z-index: 30;
-    margin-top: 30px;
-    margin-right: 15px;
-}
 
 
     .feature_contants {
@@ -99,20 +71,6 @@
     
     .header_logo {
     margin-bottom: 10px;
-}
-    
-      .menu_btn {
-    display: block;
-    text-decoration: none;
-    position: fixed;
-    right: 30px;
-    width: 30px;
-    height: 30px;
-    transition:  all .5s;
-    cursor: pointer;
-    z-index: 30;
-    margin-top: 30px;
-    margin-right: 15px;
 }
 
     .video video {
@@ -161,20 +119,6 @@
     
     .header_logo {
     margin-bottom: 10px;
-}
-    
-      .menu_btn {
-    display: block;
-    text-decoration: none;
-    position: fixed;
-    right: 30px;
-    width: 30px;
-    height: 30px;
-    transition:  all .5s;
-    cursor: pointer;
-    z-index: 30;
-    margin-top: 30px;
-    margin-right: 15px;
 }
 
     .video video {
@@ -249,19 +193,6 @@
     
     .header_logo {
     margin-bottom: 10px;
-}
-    
-      .menu_btn {
-    display: block;
-    text-decoration: none;
-    position: absolute;
-    right: 30px;
-    width: 30px;
-    height: 30px;
-    transition:  all .5s;
-    cursor: pointer;
-    z-index: 30;
-    margin-right: 15px;
 }
     
 
