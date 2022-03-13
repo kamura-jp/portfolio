@@ -237,16 +237,6 @@ body h1,h2,h3,p {
     height: 355px;
 }
 
-.slide_contants {
-   width: 100%;
-   overflow-x: auto;
-   overflow-y:unset;
-   
-}
-
-.slide_contants.scroll {
-    overflow: scroll;
-}
 
 .inner_contants {
     width: 1240px;
