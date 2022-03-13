@@ -28,9 +28,14 @@
 
 @media screen and (max-width: 1250px) {
 
+
     .feature_contants {
-        width: 50%;
-    }
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+   }
 
     .feature_img {
         width: 100%;
@@ -46,6 +51,7 @@
 
     .video video {
         width: 100%;
+        height: auto;
 }
 
     
@@ -57,12 +63,15 @@
         width: 90%;
     }
 
-    .feature_wrapper {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    
+
+    .feature_contants {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+   }
 
     .contact {
         width: 100%;
@@ -113,6 +122,8 @@
    }
 
    .feature_contants {
+        width: 90%;
+        height: auto;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -131,6 +142,7 @@
 }
 
 @media screen and (max-width: 640px) {
+
 
     .contact_right {
         text-align: center;
@@ -161,6 +173,7 @@
         text-align: center;
     }
 
+
    .p_contants {
        display: block;
        text-align: center
@@ -171,11 +184,14 @@
        text-align: center;
    }
 
-    .feature_contants {
+   .feature_contants {
+        width: 90%;
+        height: auto;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
-   }
+
+    }
 
     .contact {
         width: 100%;
