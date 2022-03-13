@@ -263,6 +263,20 @@
     z-index: 30;
     margin-right: 15px;
 }
+    
+    .nav_menu2 > li {
+    font-size: 14px;
+    list-style: none;
+    padding-bottom: 25px;
+}
+
+.nav_menu2 li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    padding-bottom: 25px;
+}
 
     .video video {
         width: 100%;
