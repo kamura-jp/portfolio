@@ -312,7 +312,6 @@ body h1,h2,h3,p {
     width: 1450px;
     height: auto;
     margin-top: 60px;
-    margin-left: 10px;
     background-color: black;
 }
 
@@ -382,7 +381,7 @@ a {
 }
 
 .footer {
-    width: 1px;
+    width: 1450px;
     color: white;
     background-color: black;
     text-align: center;
