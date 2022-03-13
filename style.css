@@ -86,7 +86,7 @@ body h1,h2,h3,p {
 .nav_menu2 > li {
     font-size: 14px;
     list-style: none;
-    
+    padding-bottom: 25px;
 }
 
 .nav_menu1 li a {
