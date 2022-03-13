@@ -109,14 +109,13 @@ body h1,h2,h3,p {
 .menu_btn {
     display: block;
     text-decoration: none;
-    position: absolute;
+    position: fixed;
     right: 30px;
     width: 30px;
     height: 30px;
     transition:  all .5s;
     cursor: pointer;
     z-index: 30;
-    margin-top: 30px;
     margin-right: 15px;
 }
 
