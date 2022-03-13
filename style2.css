@@ -221,6 +221,11 @@
     .inner_contants {
         width: 90%;
     }
+    
+    p-img img {
+        width: 300px;
+        height: 300px;
+    }
 
 
    .p_contants {
