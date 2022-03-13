@@ -1,7 +1,7 @@
 @media screen and (min-width: 1025px)and (max-width: 1450px)  {
     
     html {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .video video {
@@ -33,7 +33,7 @@
 @media screen and (max-width: 1250px) {
     
     html {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
 
@@ -58,7 +58,7 @@
 @media screen and (min-width:768px) and (max-width: 1024px) {
     
     html {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .video video {
@@ -102,7 +102,7 @@
 @media screen and (min-width:541px) and (max-width: 767px) {
     
     html {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .video video {
@@ -160,7 +160,7 @@
 @media screen and (max-width: 640px) {
     
     html {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
 
@@ -176,7 +176,7 @@
 @media screen and (max-width: 540px) {
     
     html {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .video video {
