@@ -178,6 +178,21 @@
     margin-bottom: 10px;
 }
     
+    .top-contant {
+    width: auto;
+    height: 600px;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.top-contant p {
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+    
     .menu_btn {
     display: block;
     text-decoration: none;
