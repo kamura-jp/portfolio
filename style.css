@@ -41,6 +41,21 @@ body h1,h2,h3,p {
     position: fixed;
 }
 
+.top-contant {
+    width: auto;
+    height: 600px;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.top p {
+    font-size: 20px;
+    color: white;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
 .menu_wrapper {
     display: block;
     position: fixed;
