@@ -217,11 +217,12 @@
     }
     
      .top-front {
-        width: 100%;
+        width: 90%;
         min-height: auto;
         background-color: black;
         text-align: center;
         padding: 50px;
+        margin: 0 auto;
     }
 
     .top-contant {
