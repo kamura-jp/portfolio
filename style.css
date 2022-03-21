@@ -82,6 +82,8 @@ body h1,h2,h3,p {
 .top-contant {
     width: 1450px;
     height: 800px;
+    top: 0;
+    right: -2000px;
     display: block;
     position: fixed;
     opacity: 0;
@@ -92,6 +94,7 @@ body h1,h2,h3,p {
 .top-contant.open {
     position: fixed;
     top: 0;
+    right: 0;
     opacity: 1;
 }
 
