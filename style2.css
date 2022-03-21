@@ -215,6 +215,24 @@
      .header_logo h1 {
         font-size: 30px;
     }
+    
+     .top-front {
+        width: 100%;
+        min-height: auto;
+        background-color: black;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .top-contant {
+        width: auto;
+        height: auto;
+        display: block;
+        position: absolute;
+        opacity: 0;
+        transition: all 1s;
+        background-color: black;
+    }
 
     .inner_contants {
         width: 90%;
