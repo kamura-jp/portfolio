@@ -233,11 +233,12 @@
         opacity: 0;
         transition: all 1s;
         background-color: black;
-        overflow: scroll;
-        position: fixed;
+        
+        
     }
     
     .top-contant.open {
+    position: fixed;    
     height: auto;    
     top: 0;
     left: 0;    
@@ -251,6 +252,7 @@
     
     .top-text {
         height: auto;
+        overflow: scroll;
     }
 
     .inner_contants {
