@@ -12,7 +12,7 @@
         width: 100%;
     }
 
-    .feature_wrapper {
+    .warks_wrapper {
         width: 100%;
         display: flex;
         align-items: center;
@@ -41,7 +41,7 @@
 }
 
 
-    .feature_contants {
+    .warks_contants {
         width: 60%;
         height: auto;
         margin: 0 auto;
@@ -49,11 +49,11 @@
         margin-bottom: 20px;
    }
 
-    .feature_img {
+    .warks_img {
         width: 100%;
     }
 
-    .feature_img img {
+    .warks_img img {
         width: 100%;
     }
 }
@@ -81,7 +81,7 @@
 
     
 
-    .feature_contants {
+    .warks_contants {
         width: 70%;
         height: auto;
         margin: 0 auto;
@@ -137,7 +137,7 @@
        text-align: center;
    }
 
-   .feature_contants {
+   .warks_contants {
         width: 90%;
         height: 90%;
         margin: 0 auto;
@@ -236,7 +236,7 @@
        text-align: center;
    }
 
-   .feature_contants {
+   .warks_contants {
         width: 90%;
         height: 70%;
         margin: 0 auto;
