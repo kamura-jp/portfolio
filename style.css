@@ -333,21 +333,21 @@ body h1,h2,h3,p {
     margin: 0 auto;
 }
 
-.feature {
+.warks {
     top: 300vh;
 }
 
-.feature_inner {
+.warks_inner {
     margin: 0 auto;
 }
 
 
-.feature_wrapper { 
+.warks_wrapper { 
   display: flex;
   flex-wrap: wrap;
 }
 
-.feature_contants {
+.warks_contants {
     width: 385px;
     border: 1px solid #ccc;
     box-shadow: 0 0 8px 4px #ccc;
@@ -365,15 +365,15 @@ body h1,h2,h3,p {
     opacity: 1;
 }
 
-.feature_text {
+.warks_text {
     padding: 40px 30px;
 }
 
-.feature_text .text1,.text3 {
+.warks_text .text1,.text3 {
     font-size: 12px;
 }
 
-.feature_text > .text2 {
+.warks_text > .text2 {
     font-size: 15px;
     font-weight: bold;
     padding-top: 30px;
@@ -382,7 +382,7 @@ body h1,h2,h3,p {
     line-height: 25px;
 }
 
-.feature_text > .text3 {
+.warks_text > .text3 {
     text-align: right;
 }
 
