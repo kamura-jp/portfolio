@@ -233,17 +233,17 @@
         opacity: 0;
         transition: all 1s;
         background-color: black;
-        overflow: scroll;
+        
     }
     
-    .top-contant.open {
+    .top-contant.open {   
     top: 0;
     left: 0;    
     opacity: 1;
+    overflow: scroll;    
 }
     
     .top-text {
-        overflow: scroll;
         height: auto;
     }
 
