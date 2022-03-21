@@ -244,6 +244,7 @@
     
     .top-text {
         overflow: scroll;
+        height: 100%;
     }
 
     .inner_contants {
