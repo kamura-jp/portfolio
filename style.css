@@ -61,7 +61,7 @@ body h1,h2,h3,p {
 }
 
 
-.top-btn span {
+.top-btn {
     display: inline-block;
     width: 100px;
     height: 20px;
@@ -72,7 +72,7 @@ body h1,h2,h3,p {
     font-size: 20px;
 }
 
-.top-btn span:hover {
+.top-btn:hover {
     color: black;
     background-color: white;
     transition: .5s;
@@ -444,7 +444,7 @@ textarea{
     text-align: center;
 }
 
-.contact-btn span {
+.contact-btn {
     display: inline-block;
     width: 100px;
     height: 20px;
@@ -455,7 +455,7 @@ textarea{
     font-size: 20px;
 }
 
-.contact-btn span:hover {
+.contact-btn:hover {
     color: black;
     background-color: white;
     transition: .5s;
