@@ -236,7 +236,8 @@
         
     }
     
-    .top-contant.open {   
+    .top-contant.open {
+    position: absolute;    
     top: 0;
     left: 0;    
     opacity: 1;
