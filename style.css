@@ -88,7 +88,11 @@ body h1,h2,h3,p {
     position: fixed;
     transition: all 1s;
     background-color: black;
-    padding: 50px;
+}
+
+.top-text {
+  width: auto;   
+  padding: 50px;
 }
 
 .top-contant.open {
