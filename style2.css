@@ -198,7 +198,7 @@
         transition: all 1s;
         background-color: black;
         overflow: scroll;
-        
+        padding: 50px;
     }
     
     .top-contant p {
