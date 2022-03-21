@@ -159,11 +159,11 @@
 
 @media screen and (max-width: 640px) {
 
-    .contact_right {
+    .warks_contants {
         text-align: center;
     }
 
-    .contact_right input,textarea {
+    .warks_contants input,textarea {
         width: 90%;
     }
 }
