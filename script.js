@@ -18,7 +18,7 @@ $(function(){
 
 $(function() {
   $(window).scroll(function() {
-    $(".feature_img").each(function() {
+    $(".warks_img").each(function() {
       var scroll = $(window).scrollTop();
       var blockPosition = $(this).offset().top;
       var windowHeihgt = $(window).height();
