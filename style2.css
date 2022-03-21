@@ -237,8 +237,7 @@
         
     }
     
-    .top-contant.open {
-    position: fixed;    
+    .top-contant.open {   
     height: 800px;    
     top: 0;
     left: 0;    
