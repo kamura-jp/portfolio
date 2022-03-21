@@ -233,7 +233,7 @@
         opacity: 0;
         transition: all 1s;
         background-color: black;
-        overflow: scroll;
+       
     }
     
     .top-contant.open {
@@ -241,6 +241,10 @@
     left: 0;    
     opacity: 1;
 }
+    
+    .top-text {
+        overflow: scroll;
+    }
 
     .inner_contants {
         width: 90%;
