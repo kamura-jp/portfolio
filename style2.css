@@ -226,7 +226,7 @@
 
     .top-contant {
         width: 100%;
-        height: 100%;
+        height: auto;
         display: block;
         opacity: 0;
         transition: all 1s;
