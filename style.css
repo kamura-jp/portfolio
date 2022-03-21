@@ -98,7 +98,7 @@ body h1,h2,h3,p {
 .top-contant.open {
     position: fixed;
     top: 0;
-    right: 0;
+    rigth: 0;
 }
 
 .top-contant.close {
