@@ -42,7 +42,7 @@ body h1,h2,h3,p {
 }
 
 .top-front {
-    width: 1450px;
+    width: auto;
     height: 300px;
     background-color: black;
     display: block;
