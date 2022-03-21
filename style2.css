@@ -249,10 +249,14 @@
         width: 100%;
     }
     
-    .contact_contants {
+   .contact_contants {
         width: 90%;
         height: auto;
         margin: 0 auto;
+    }
+
+    input {
+        width: 90%;
     }
  
  
