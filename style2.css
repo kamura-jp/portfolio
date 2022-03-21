@@ -228,10 +228,11 @@
         width: auto;
         height: auto;
         display: block;
-        position: absolute;
+        position: sticky;
         opacity: 0;
         transition: all 1s;
         background-color: black;
+        
     }
 
     .inner_contants {
