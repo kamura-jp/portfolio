@@ -218,7 +218,7 @@
     
      .top-front {
         width: 100%;
-        height: auto;
+        min-height: auto;
         background-color: black;
         text-align: center;
         padding: 50px;
