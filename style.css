@@ -86,7 +86,6 @@ body h1,h2,h3,p {
     top: 0;
     display: block;
     position: fixed;
-    opacity: 0;
     transition: all 1s;
     background-color: black;
     padding: 50px;
@@ -96,11 +95,9 @@ body h1,h2,h3,p {
     position: fixed;
     top: 0;
     right: 0;
-    opacity: 1;
 }
 
 .top-contant.close {
-    opacity: 0;
     rigth: -2000px;
     top: 0;
     transition: all 1s;
