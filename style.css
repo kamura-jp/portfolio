@@ -82,7 +82,7 @@ body h1,h2,h3,p {
 .top-contant {
     width: 1450px;
     height: 800px;
-    rigth: -2000px;
+    right: -2000px;
     top: 0;
     display: block;
     position: fixed;
@@ -98,11 +98,11 @@ body h1,h2,h3,p {
 .top-contant.open {
     position: fixed;
     top: 0;
-    rigth: 0;
+    right: 0;
 }
 
 .top-contant.close {
-    rigth: -2000px;
+    right: -2000px;
     top: 0;
     transition: all 1s;
 }
