@@ -245,6 +245,11 @@
     overflow: scroll;    
 }
     
+    .top-contant.close {
+    opacity: 0;
+    transition: all 1s;
+}
+    
     .top-text {
         height: auto;
     }
