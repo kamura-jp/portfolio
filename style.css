@@ -438,7 +438,7 @@ textarea{
 }
 
 .contact-btn span {
-    display: inline-block;
+    display: block;
     width: 100px;
     height: 20px;
     padding: 15px 75px;
