@@ -4,6 +4,18 @@ $(function(){
     });
     })
 
+ $(function(){
+      $(`.top-btn`).click(function () {
+          $('.top-contant').toggleClass('open');
+      });
+      })
+
+      $(function(){
+        $(`.top-c-btn`).click(function () {
+            $('.top-contant').toggleClass('close');
+        });
+        })
+
 $(function() {
   $(window).scroll(function() {
     $(".feature_img").each(function() {
