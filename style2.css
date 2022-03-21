@@ -225,12 +225,13 @@
     }
 
     .top-contant {
-        width: 90%;
+        width: 100%;
         height: auto;
         display: block;
         opacity: 0;
         transition: all 1s;
         background-color: black;
+        position: sticky;
         
     }
 
