@@ -217,7 +217,7 @@
     }
     
      .top-front {
-        width: 100%;
+        width: auto;
         min-height: auto;
         background-color: black;
         text-align: center;
@@ -227,7 +227,7 @@
     }
 
     .top-contant {
-        width: 100%;
+        width: auto;
         height: auto;
         display: block;
         opacity: 0;
