@@ -197,11 +197,15 @@
         opacity: 0;
         transition: all 1s;
         background-color: black;
-        overflow: scroll;
+        overflow-y: scroll;
         padding: 50px;
     }
     
-    .top-contant p {
+     .top-text {
+        height: auto;  
+    }
+    
+    .top-text p {
     font-size: 15px;
     color: white;
     line-height: 30px;
@@ -221,10 +225,7 @@
     transition: all 1s;
 }
     
-    .top-text {
-        height: auto;
-        
-    }
+   
     
     .menu_btn {
     display: block;
