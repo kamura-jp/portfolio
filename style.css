@@ -404,9 +404,11 @@ body h1,h2,h3,p {
 }
 
 .contact_contants {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    width: 545px;
+    height: auto;
+    margin: 0 auto;
 }
 
 .contact_right {
@@ -420,7 +422,7 @@ body h1,h2,h3,p {
     line-height: 25px;
 }
 
-.contact_right[textarea] {
+.contact_contants[textarea] {
     width: 300%;
 }
 
