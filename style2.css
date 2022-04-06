@@ -1,12 +1,12 @@
 @media screen and (min-width: 1025px)and (max-width: 1450px)  {
-    
+
+    html {
+        overflow-x: hidden;
+    }
+
     .video video {
         width: 100%;
     }
-    
-    .header_logo {
-    margin-bottom: 10px;
-}
 
     .inner_contants {
         width: 100%;
@@ -31,14 +31,10 @@
 }
 
 @media screen and (max-width: 1250px) {
-    
+
     html {
         overflow-x: hidden;
     }
-    
-    .header_logo {
-    margin-bottom: 10px;
-}
 
 
     .warks_contants {
@@ -60,10 +56,10 @@
 
 
 @media screen and (min-width:768px) and (max-width: 1024px) {
-    
-    .header_logo {
-    margin-bottom: 10px;
-}
+
+    html {
+        overflow-x: hidden;
+    }
 
     .video video {
         width: 100%;
@@ -104,10 +100,10 @@
 
 
 @media screen and (min-width:541px) and (max-width: 767px) {
-    
-    .header_logo {
-    margin-bottom: 10px;
-}
+
+    html {
+        overflow-x: hidden;
+    }
 
     .video video {
         width: 100%;
@@ -122,24 +118,13 @@
         width: 90%;
     }
 
-    .p-img {
-        width: 90%;
+    .p_contants {
+        margin: 0 auto;
     }
-
-   .p_contants {
-       width: 90%;
-       display: block;
-       text-align: center
-   }
-
-   .p-contant {
-       margin: 0 auto;
-       text-align: center;
-   }
 
    .warks_contants {
         width: 90%;
-        height: 90%;
+        height: auto;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -159,88 +144,16 @@
 
 @media screen and (max-width: 640px) {
 
-    .warks_contants {
-        text-align: center;
-    }
-
-    .warks_contants input,textarea {
+    .contact_right input,textarea {
         width: 90%;
     }
 }
 
 @media screen and (max-width: 540px) {
-    
-    body {
+
+    html {
         overflow-x: hidden;
     }
-    
-    .header_logo {
-    margin-bottom: 10px;
-}
-    
-
- 
-    .top-front {
-        width: auto;
-        min-height: auto;
-        background-color: black;
-        text-align: center;
-        padding-top: 50px;
-        padding-bottom: 50px; 
-        margin: 0 auto;
-    }
-
-    .top-contant {
-        width: auto;
-        height: auto;
-        display: block;
-        opacity: 0;
-        transition: all 1s;
-        background-color: black;
-        overflow-y: scroll;
-        padding: 50px;
-    }
-    
-     .top-text {
-        height: auto;  
-    }
-    
-    .top-text p {
-    font-size: 10px;
-    color: white;
-    line-height: 30px;
-    letter-spacing: 1px;
-}
-   
-    
-    .top-contant.open {   
-    height: auto;    
-    top: 0;
-    left: 0;    
-    opacity: 1;   
-}
-    
-    .top-contant.close {
-    opacity: 0;
-    transition: all 1s;
-}
-    
-   
-    
-    .menu_btn {
-    display: block;
-    text-decoration: none;
-    position: fixed;
-    right: 30px;
-    width: 30px;
-    height: 30px;
-    transition:  all .5s;
-    cursor: pointer;
-    z-index: 30;
-    margin-top: 10px;
-    margin-right: 15px;
-}
-    
 
     .video video {
         width: 100%;
@@ -249,13 +162,21 @@
      .header_logo h1 {
         font-size: 30px;
     }
-    
-     
 
     .inner_contants {
         width: 90%;
     }
-    
+
+
+    .top-front {
+        width: 100%;
+        min-height: auto;
+        background-color: black;
+        text-align: center;
+       padding-top: 50px;
+       padding-bottom: 50px;
+    }
+
     .top-contant {
         width: 100%;
         height: 100%;
@@ -276,7 +197,6 @@
   
 
     .top-contant p {
-        width: 90%;
         padding: 20px;
         font-size: 20px;
         color: white;
@@ -292,16 +212,18 @@
         padding-bottom: 20px;
         cursor: pointer;
     }
-    
-    .p-img img {
-        width: 250px;
-        height: 250px;
+
+
+    .p-img  img {
+        width: 300px;
+        height: 300px;
     }
 
 
    .p_contants {
        display: block;
-       text-align: center
+       text-align: center;
+       margin: 0 auto;
    }
 
    .p-contant {
@@ -311,7 +233,7 @@
 
    .warks_contants {
         width: 90%;
-        height: 70%;
+        height: auto;
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -321,8 +243,8 @@
     .contact {
         width: 100%;
     }
-    
-   .contact_contants {
+
+    .contact_contants {
         width: 90%;
         height: auto;
         margin: 0 auto;
