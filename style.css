@@ -6,7 +6,7 @@ Description: ポートフォリオサイト
 Version: 1.0
 */
 
-body { 
+html { 
     overflow-x: hidden;
 }
 
@@ -32,17 +32,18 @@ body h1,h2,h3,p {
 }
 
 .header_logo {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .header_logo h1 {
     font-size: 40px;
     font-weight: lighter;
     position: fixed;
+     
 }
 
 .top-front {
-    width: auto;
+    width: 1450px;
     height: 300px;
     background-color: black;
     display: block;
@@ -59,6 +60,12 @@ body h1,h2,h3,p {
     letter-spacing: 1px;
     color: white;
 }
+
+.top-btn {
+    width: 250px;
+    margin: 0 auto;
+}
+
 
 .top-btn span {
     display: inline-block;
@@ -80,31 +87,25 @@ body h1,h2,h3,p {
 
 .top-contant {
     width: 1450px;
-    height: auto;
+    height: 800px;
     display: block;
     position: fixed;
-    opacity: 0;
-    transition: all 1s;
+    top: 0;
+    right: -2000px;
+    overflow-x: hidden;
+    overflow-y: auto ;
     background-color: black;
-}
-
-.top-text {
-  width: auto;   
-  padding: 50px;
+    transition: all 1s;
+    z-index: 3;
 }
 
 .top-contant.open {
-    position: fixed;
-    top: 0;
-    opacity: 1;
+    right: 0;
 }
 
-.top-contant.close {
-    opacity: 0;
-    transition: all 1s;
-}
 
 .top-contant p {
+    padding-top: 20px;
     font-size: 20px;
     color: white;
     line-height: 60px;
@@ -129,7 +130,9 @@ body h1,h2,h3,p {
 }
 
 .top-c-btn {
-    padding-top: 50px;
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 30px;
     cursor: pointer;
 }
 
@@ -178,7 +181,7 @@ body h1,h2,h3,p {
 .nav_menu2 > li {
     font-size: 14px;
     list-style: none;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .nav_menu1 li a {
@@ -208,7 +211,7 @@ body h1,h2,h3,p {
     transition:  all .5s;
     cursor: pointer;
     z-index: 30;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-right: 15px;
 }
 
@@ -393,9 +396,10 @@ body h1,h2,h3,p {
 
 
 .contact {
-    width: 1500px;
+    width: 1420px;
     height: auto;
     margin-top: 60px;
+    margin-left: 10px;
     background-color: black;
 }
 
@@ -415,6 +419,7 @@ body h1,h2,h3,p {
 }
 
 
+
 .text2,.text3 {
     height: 60px;
     line-height: 25px;
@@ -430,18 +435,19 @@ input {
     margin-bottom: 30px;
 }
 
-textarea{
+textarea {
     width: 545px;
     height: 68px;
     
 }
+
 
 .contact-btn {
     margin-top: 40px;
     text-align: center;
 }
 
-.contact-btn {
+.contact-btn span {
     display: inline-block;
     width: 100px;
     height: 20px;
@@ -452,19 +458,22 @@ textarea{
     font-size: 20px;
 }
 
-.contact-btn:hover {
+.contact-btn span:hover {
     color: black;
     background-color: white;
     transition: .5s;
 }
 
+
 .footer {
-    width: 1500px;
+    width: 1420px;
     color: white;
     background-color: black;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 10px;
+    margin-left: 10px;
+    
 }
 
 .footer p {
