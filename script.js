@@ -4,7 +4,7 @@ $(function(){
     });
     })
 
- $(function(){
+    $(function(){
       $(`.top-btn`).click(function () {
           $('.top-contant').toggleClass('open');
       });
@@ -12,7 +12,7 @@ $(function(){
 
       $(function(){
         $(`.top-c-btn`).click(function () {
-            $('.top-contant').toggleClass('close');
+            $('.top-contant').removeClass('open');
         });
         })
 
@@ -28,7 +28,3 @@ $(function() {
     });
   });
 });
-
-
-
-
