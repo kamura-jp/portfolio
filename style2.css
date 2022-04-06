@@ -276,6 +276,7 @@
   
 
     .top-contant p {
+        width: 90%;
         padding: 20px;
         font-size: 20px;
         color: white;
