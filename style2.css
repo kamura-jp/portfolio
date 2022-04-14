@@ -153,13 +153,16 @@
 
 @media screen and (max-width: 540px) {
 
-    html {
+    body {
         overflow-x: hidden;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
     }
+
 
     .video video {
         width: 100%;
-}
+    }
     
     .header_logo {
         margin-top: 10px;
