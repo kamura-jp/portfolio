@@ -1,8 +1,10 @@
 @media screen and (min-width: 1025px)and (max-width: 1450px)  {
 
-    html {
-        overflow-x: hidden;
-    }
+    body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
 
     .video video {
         width: 100%;
