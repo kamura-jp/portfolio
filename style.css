@@ -35,6 +35,13 @@ body h1,h2,h3,p {
     margin-bottom: 15px;
 }
 
+.header_logo a {
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    position: fixed;
+}
+
 .header_logo h1 {
     font-size: 40px;
     font-weight: lighter;
